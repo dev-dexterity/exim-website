@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './navbar.css'
-import logo from '../../assets/logo.png'
+import logo from '../../assets/logo_4.png'
+
 
 const navbar = () => {
   const [sticky, setSticky] = useState(false);
@@ -18,7 +19,6 @@ const navbar = () => {
         <li>Home</li>
         <li>Services</li>
         <li>About us</li>
-        <li>Price Calculator</li>
         <li>Products</li>
         <li><button className='btn'>Contact Us</button></li>
       </ul>
