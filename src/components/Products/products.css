@@ -1,9 +1,8 @@
-
 .swiper {
     width: 90%;
     height: 100%;
     
-  }
+}
   
 .swiper-slide {
     text-align: left;
@@ -40,3 +39,15 @@
     padding-bottom: 2vw;
 }
   
+@media (max-width: 650px) {
+    .swiper-slide p{
+        font-size: 10px;
+        font-weight: 300;
+    }
+    .swiper-slide h3 {
+        font-size: 12px;
+    }
+    .swipe {
+        font-size: 15px;
+    }
+}

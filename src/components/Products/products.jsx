@@ -24,6 +24,19 @@ export default function App() {
         keyboard={true}
         modules={[Mousewheel, Keyboard]}
         className="mySwiper"
+
+        breakpoints={{
+          // When the window width is >= 320px, 2 slides will be shown
+          320: {
+            slidesPerView: 2, // for mobile devices
+            spaceBetween: 20,
+          },
+          // When the window width is >= 768px, 3 slides will be shown
+          768: {
+            slidesPerView: 3, // for tablets and above
+            spaceBetween: 40,
+          },
+        }}
       >
                   <SwiperSlide>
                     <h3>ONIONS DRIED</h3>

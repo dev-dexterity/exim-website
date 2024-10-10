@@ -14,3 +14,17 @@
     display: inline-block;
     margin-left: 5px;
 }
+
+@media (max-width: 850px) {
+    .footer {
+        display: block;
+        text-align: center;
+    }
+    .footer ul li {
+        margin-top: 10px;
+    }
+
+    .footer ul {
+        margin-top: 10px;
+    }
+}

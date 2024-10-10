@@ -41,7 +41,9 @@ nav p {
 
 @media (max-width: 1000px) {
     nav p {
-        width: 140px;
+        width: 250px;
+        font-size: 20px;
+        z-index: -1;
     }
     nav ul li {
         margin: 10px 15px;

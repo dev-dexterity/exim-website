@@ -65,3 +65,12 @@
     display: block;
     align-items: center;
 }
+
+@media (max-width: 650px) {
+    .contact {
+        display: block;
+    }
+    .contact-col {
+        padding: 20px;
+    }
+}
