@@ -6,6 +6,8 @@ import Title from '../src/components/Title/title'
 import About from '../src/components/About/about'
 import Products from '../src/components/Products/products'
 import Contact from '../src/components/Contact/contact'
+import Footer from '../src/components/Footer/footer'
+
 
 
 
@@ -23,6 +25,7 @@ const App = () => {
         <Products />
         <Title subTitle = 'Contact Us' title= 'Get in Touch'/>
         <Contact />
+        <Footer />
       </div>
     </div>
   )

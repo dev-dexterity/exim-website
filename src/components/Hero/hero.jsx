@@ -7,7 +7,7 @@ const hero = () => {
     <div className='hero container'>
         <div className="hero-txt">
             <h1>Prabha Exim Networks</h1>
-            <p>At Prabha Exim Networks, we are dedicated to simplifying global trade by offering tailored import-export solutions for businesses of all sizes. With our deep expertise in international trade regulations, logistics, and compliance, we ensure a seamless and efficient process for companies looking to expand globally.At Prabha Exim Networks, we are committed to delivering excellence and fostering long-term partnerships in the world of global commerce. </p>
+            <p>At Prabha Exim Networks, we simplify global trade by offering tailored import-export solutions. With expertise in international regulations and logistics, we ensure a seamless process for businesses expanding globally. </p>
             <button className='btn'>Explore More <img src={dark_arrow} alt="" /></button>
         </div>
     </div>
