@@ -3,6 +3,7 @@ import './navbar.css'
 import { Link } from 'react-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faExchangeAlt } from '@fortawesome/free-solid-svg-icons';
+import menu_icon from '../../assets/menu-icon.png'
 
 
 const navbar = () => {
@@ -14,10 +15,15 @@ const navbar = () => {
     })
   }, []);
 
+  const [mobileMenu, setMobileMenu] = useState(false);
+  const ToggleMenu = ()=> {
+    mobileMenu ? setMobileMenu(false) : setMobileMenu(true)
+  }
+
   return (
     <nav className={`container ${sticky ? 'dark_nav' : ''}`}>
       <p><FontAwesomeIcon icon={faExchangeAlt} /> Prabha Exim Network</p>
-      <ul>
+      <ul className={mobileMenu ? '' : 'hide-mobile-menu'}>
         <li>
           <Link 
           to = 'hero'
@@ -67,6 +73,7 @@ const navbar = () => {
           </Link>
         </li>
       </ul>
+      <img src={menu_icon} alt="" className='menu_icon' onClick={ToggleMenu}/>
     </nav>
   )
 }
