@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import './navbar.css'
-import logo from '../../assets/logo_4.png'
 import { Link } from 'react-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faExchangeAlt } from '@fortawesome/free-solid-svg-icons';
