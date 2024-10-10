@@ -52,7 +52,7 @@ const navbar = () => {
           <Link 
           to = 'products'
           smooth = {true}
-          offset = {-230}
+          offset = {-200}
           duration = {500}
           >
           Products
@@ -60,7 +60,7 @@ const navbar = () => {
         </li>
         <li><Link className='btn' to = 'products'
           smooth = {true}
-          offset = {380}
+          offset = {400}
           duration = {500}
           >
           Contact Us

@@ -15,6 +15,7 @@ import {Mousewheel, Keyboard } from 'swiper/modules';
 export default function App() {
   return (
     <div className='products'>
+      <p className='swipe'>Swipe &rarr;</p>
       <Swiper
         spaceBetween={60}
         slidesPerView={3}

@@ -5,6 +5,8 @@ import mail_icon from '../../assets/mail-icon.png'
 import call_icon from '../../assets/phone-icon.png'
 import loc_icon from '../../assets/location-icon.png'
 import white_arrow from '../../assets/white-arrow.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRight, faArrowLeft, faArrowUp, faArrowDown } from '@fortawesome/free-solid-svg-icons';
 
 const contact = () => {
 
@@ -54,7 +56,7 @@ const contact = () => {
             <input type="tel" name='phone' placeholder='Enter your mobile number' required/>
             <label>Write your message here</label>
             <textarea name="message" rows="6" placeholder='Enter your Message' required></textarea>
-            <button type='submit' className='btn dark-btn'>Submit Now <img src={white_arrow} alt="" /> </button>
+            <button type='submit' className='btn dark-btn'>Submit Now <FontAwesomeIcon className='right-arrow' icon={faArrowRight} /> </button>
         </form>
         <span>{result}</span>
       </div>
