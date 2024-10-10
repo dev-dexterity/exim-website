@@ -14,7 +14,7 @@ import {Mousewheel, Keyboard } from 'swiper/modules';
 
 export default function App() {
   return (
-    <>
+    <div className='products'>
       <Swiper
         spaceBetween={60}
         slidesPerView={3}
@@ -83,6 +83,6 @@ export default function App() {
                     <p>Rattan furniture is known for its lightweight, yet sturdy structure, making it ideal for bedroom use. It brings a natural, rustic charm to interiors, commonly used in headboards, bed frames, and other furniture. Rattan is durable and eco-friendly, often preferred for outdoor and indoor use alike.</p>
                   </SwiperSlide>
       </Swiper>
-    </>
+    </div>
   );
 }
