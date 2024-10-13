@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import Navbar from './components/navber/navbar'
 import Hero from './components/Hero/hero'
 import Services from './components/Services/services'
@@ -9,23 +9,21 @@ import Contact from '../src/components/Contact/contact'
 import Footer from '../src/components/Footer/footer'
 
 
-
-
-
 const App = () => {
+
   return (
-    <div>
+    <div>     
       <Navbar />
       <Hero />
       <div className="container">
-        <Title subTitle = 'Our Services' title= 'What we Offer'/>
-        <Services />
-        <About />
-        <Title subTitle = 'Our Products' title= 'What we Have'/>
-        <Products />
-        <Title subTitle = 'Contact Us' title= 'Get in Touch'/>
-        <Contact />
-        <Footer />
+          <Title subTitle='Our Services' title='What we Offer' />
+          <Services />
+          <About />
+          <Title subTitle='Our Products' title='What we Have' />
+          <Products />
+          <Title subTitle='Contact Us' title='Get in Touch' />
+          <Contact />
+          <Footer />
       </div>
     </div>
   )

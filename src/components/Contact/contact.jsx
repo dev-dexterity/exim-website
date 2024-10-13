@@ -9,8 +9,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight, faArrowLeft, faArrowUp, faArrowDown } from '@fortawesome/free-solid-svg-icons';
 
 const contact = () => {
-
-
     const [result, setResult] = React.useState("");
 
     const onSubmit = async (event) => {
@@ -18,7 +16,7 @@ const contact = () => {
       setResult("Sending....");
       const formData = new FormData(event.target);
   
-      formData.append("access_key", "472d8075-09e5-4d1a-a046-984c4c5e3154");
+      formData.append("access_key", "7ae1e0b9-4043-43b0-a5f8-ab055357e095");
   
       const response = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
@@ -44,8 +42,8 @@ const contact = () => {
         <p>Feel free to reach out through contact form or find our contact information below.Clear all your Questions via call or mail us at the given email</p>
         <ul>
             <li><img src={mail_icon} alt="" />prabhaeximnetwork@gmail.com</li>
-            <li> <img src={call_icon} alt="" /> +91 1234567890</li>
-            <li> <img src={loc_icon} alt="" /> Satyam Industrial Estate, Aasmant Apts, Sr.No.1/4, Near, Opp. SNDT College, Pune, Maharashtra 411004, India</li>
+            <li> <img src={call_icon} alt="" /> +91 8485862943</li>
+            <li> <img src={loc_icon} alt="" /> Shree Ramkrushna Heights Flat no. 402 Ghule Nagar Vadgoan Budruk Pune 411041</li>
         </ul>
       </div>
       <div className="contact-col">
