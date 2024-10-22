@@ -23,7 +23,7 @@ const App = () => {
           <About />
           <Title subTitle='Our Products' title='What we Have' />
           <Products />
-          <Title subTitle='proprietor' title='Founders' />
+          <Title subTitle='proprietor' title='The One behind this' />
           <Owner />
           <Title subTitle='Contact Us' title='Get in Touch' />
           <Contact />

@@ -22,18 +22,9 @@
     margin-left: 3vw;
 }
 
-.left{
-    width: 80%;
+.left-pro{
+    width: 50%;
     text-align: center;
-}
-
-.right{
-    width: 80%;
-    margin-left: 5vw;
-    border: 2px solid #212ea0;
-    padding: 1vw;
-    border-spacing: 2vw;
-
 }
 
 @media (max-width: 650px) {
@@ -42,9 +33,7 @@
     }
     .left{
         flex-basis: 100%;
-        margin: 20px;
-    }
-    .right {
-        flex-basis: 100%;
+        margin: 5px;
+        font-size: 12px;
     }
 }
