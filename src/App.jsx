@@ -25,7 +25,7 @@ const App = () => {
           <Products />
           <Title subTitle='Contact Us' title='Get in Touch' />
           <Contact />
-          <Title subTitle='Designation' title='Owners' />
+          <Title subTitle='proprietor' title='Owners' />
           <Owner />
           <Footer />
       </div>

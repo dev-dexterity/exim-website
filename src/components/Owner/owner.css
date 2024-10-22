@@ -1,6 +1,6 @@
 .owner {
     width: 100%;
-    padding: 2vw 2vw;
+    padding: 3vw 3vw;
     height: auto;
     display: flex;
     align-items: center;
@@ -20,4 +20,14 @@
     width: 30%;
     margin-top: 12vw;
     margin-left: 3vw;
+}
+
+.left{
+    width: 80%;
+    margin-right: 5vw;
+}
+
+.right{
+    width: 80%;
+    margin-left: 5vw;
 }
