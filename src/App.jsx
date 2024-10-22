@@ -7,6 +7,8 @@ import About from '../src/components/About/about'
 import Products from '../src/components/Products/products'
 import Contact from '../src/components/Contact/contact'
 import Footer from '../src/components/Footer/footer'
+import Owner from '../src/components/Owner/owner'
+
 
 
 const App = () => {
@@ -23,6 +25,8 @@ const App = () => {
           <Products />
           <Title subTitle='Contact Us' title='Get in Touch' />
           <Contact />
+          <Title subTitle='Designation' title='Owners' />
+          <Owner />
           <Footer />
       </div>
     </div>

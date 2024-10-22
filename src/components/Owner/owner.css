@@ -1,0 +1,23 @@
+.owner {
+    width: 100%;
+    padding: 2vw 2vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 0;
+}
+
+.owner img{
+    width: 150px;
+    height: 150px;
+    border: 10px solid #212EA0;
+    border-radius: 50%;
+    /* margin-left: 10vw; */
+}
+
+.owner p1{
+    width: 30%;
+    margin-top: 12vw;
+    margin-left: 3vw;
+}
