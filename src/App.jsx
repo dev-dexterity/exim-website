@@ -23,10 +23,10 @@ const App = () => {
           <About />
           <Title subTitle='Our Products' title='What we Have' />
           <Products />
+          <Title subTitle='proprietor' title='Founders' />
+          <Owner />
           <Title subTitle='Contact Us' title='Get in Touch' />
           <Contact />
-          <Title subTitle='proprietor' title='Owners' />
-          <Owner />
           <Footer />
       </div>
     </div>

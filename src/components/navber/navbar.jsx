@@ -64,14 +64,23 @@ const navbar = () => {
           Products
           </Link>
         </li>
+        <li><Link to = 'products'
+          smooth = {true}
+          offset = {450}
+          duration = {500}
+          >
+          Founders
+          </Link>
+        </li>
         <li><Link className='btn' to = 'products'
           smooth = {true}
-          offset = {400}
+          offset = {1050}
           duration = {500}
           >
           Contact Us
           </Link>
         </li>
+        
       </ul>
       <img src={menu_icon} alt="" className='menu_icon' onClick={ToggleMenu}/>
     </nav>
