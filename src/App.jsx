@@ -9,8 +9,6 @@ import Contact from '../src/components/Contact/contact'
 import Footer from '../src/components/Footer/footer'
 import Owner from '../src/components/Owner/owner'
 
-
-
 const App = () => {
 
   return (
