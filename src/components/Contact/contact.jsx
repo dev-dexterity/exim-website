@@ -43,7 +43,7 @@ const contact = () => {
         <ul>
             <li><img src={mail_icon} alt="" />prabhaeximnetwork@gmail.com</li>
             <li> <img src={call_icon} alt="" /> +91 8485862943</li>
-            <li> <img src={loc_icon} alt="" /> Shree Ramkrushna Heights Flat no. 402 Ghule Nagar Vadgoan Budruk Pune 411041</li>
+            <li> <img  src={loc_icon} alt="" /> Shree Ramkrushna Heights Flat no. 402 Ghule Nagar Vadgoan Budruk Pune 411041</li>
         </ul>
       </div>
       <div className="contact-col">

@@ -66,6 +66,10 @@
     align-items: center;
 }
 
+.shadow{
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.918);
+}
+
 @media (max-width: 650px) {
     .contact {
         display: block;
