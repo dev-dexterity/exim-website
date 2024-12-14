@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import left from '../../assets/left.jpg'
+import left from '../../assets/mid.jpg'
 import play_icon from '../../assets/play.png'
 
 
@@ -9,7 +9,6 @@ const about = () => {
     <div className='about'>
       <div className="about_left">
         <img src={left} alt="" className='left'/>
-        <img src={play_icon} alt="" className='play_icon' />
       </div>
       <div className="about_right">
         <h3>About Prabha Exim Networks</h3>

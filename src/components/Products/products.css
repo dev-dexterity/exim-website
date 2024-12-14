@@ -50,4 +50,9 @@
     .swipe {
         font-size: 15px;
     }
+    .size{
+        width: 110px;
+        height: 40px;
+        font-size: 10px;
+    }   
 }
