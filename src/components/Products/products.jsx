@@ -43,7 +43,7 @@ export default function App() {
       >
                   <SwiperSlide  ><h3>Turmeric Powder</h3>
                     <p>Rattan furniture is known for its lightweight, yet sturdy structure, making it ideal for bedroom use. It brings a natural, rustic charm to interiors, commonly used in headboards, bed frames, and other furniture. Rattan is durable and eco-friendly, often preferred for outdoor and indoor use alike.</p>
-                    <a href="#" className='btn dark-btn size'>Explore More <FontAwesomeIcon className='right-arrow' icon={faArrowRight} /></a>
+                    <a href="/product-one" className='btn dark-btn size'>Explore More <FontAwesomeIcon className='right-arrow' icon={faArrowRight} /></a>
                   </SwiperSlide>
                   <SwiperSlide  ><h3>Banana Powder</h3>
                     <p>Rattan furniture is known for its lightweight, yet sturdy structure, making it ideal for bedroom use. It brings a natural, rustic charm to interiors, commonly used in headboards, bed frames, and other furniture. Rattan is durable and eco-friendly, often preferred for outdoor and indoor use alike.</p>
