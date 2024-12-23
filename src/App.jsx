@@ -9,6 +9,9 @@ import Contact from './components/Contact/contact';
 import Footer from './components/Footer/footer';
 import Owner from './components/Owner/owner';
 import ProductOne from './components/P1/productOne';
+import ProductTwo from './components/P2/productTwo';
+import ProductThree from './components/P3/productThree';
+import ProductFour from './components/P4/productFour';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -39,6 +42,9 @@ const App = () => {
           />
           {/* Additional Route Examples */}
           <Route path="/product-one" element={<ProductOne />}/>
+          <Route path="/product-two" element={<ProductTwo />}/>
+          <Route path="/product-three" element={<ProductThree />}/>
+          <Route path="/product-four" element={<ProductFour />}/>
         </Routes>
       </div>
       <Footer />
