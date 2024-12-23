@@ -42,19 +42,19 @@ export default function App() {
         }}
       >
                   <SwiperSlide  ><h3>Turmeric Powder</h3>
-                    <p>Rattan furniture is known for its lightweight, yet sturdy structure, making it ideal for bedroom use. It brings a natural, rustic charm to interiors, commonly used in headboards, bed frames, and other furniture. Rattan is durable and eco-friendly, often preferred for outdoor and indoor use alike.</p>
+                    <p>Haldi powder, commonly known as turmeric powder, is a bright yellow spice derived from the rhizome of the turmeric plant (Curcuma longa), which belongs to the ginger family. Native to South Asia, turmeric is widely cultivated in tropical and subtropical regions, particularly in India, which is the largest producer and exporter.</p>
                     <a href="/product-one" className='btn dark-btn size'>Explore More <FontAwesomeIcon className='right-arrow' icon={faArrowRight} /></a>
                   </SwiperSlide>
                   <SwiperSlide  ><h3>Banana Powder</h3>
-                    <p>Rattan furniture is known for its lightweight, yet sturdy structure, making it ideal for bedroom use. It brings a natural, rustic charm to interiors, commonly used in headboards, bed frames, and other furniture. Rattan is durable and eco-friendly, often preferred for outdoor and indoor use alike.</p>
+                    <p> Banana powder is a fine, light-yellow powder made from ripe bananas, valued for its nutritional benefits and versatility. Produced by drying and grinding banana pulp, it retains the fruit's natural flavor and nutrients while offering a longer shelf life. Rich in potassium, magnesium, dietary fiber, and vitamins, it is low in fat and ideal for health-conscious consumers.</p>
                     <a href="/product-two" className='btn dark-btn size'>Explore More <FontAwesomeIcon className='right-arrow' icon={faArrowRight} /></a>
                   </SwiperSlide>
                   <SwiperSlide  ><h3>Gawar Powder</h3>
-                    <p>Rattan furniture is known for its lightweight, yet sturdy structure, making it ideal for bedroom use. It brings a natural, rustic charm to interiors, commonly used in headboards, bed frames, and other furniture. Rattan is durable and eco-friendly, often preferred for outdoor and indoor use alike.</p>
+                    <p>Guar gum powder is a natural, versatile product derived from the seeds of the guar plant (Cyamopsis tetragonoloba), which is primarily grown in arid regions of India and Pakistan. The plant's seeds are processed to extract the gum, which is then ground into a fine powder. Guar gum is known for its thickening, gelling, and stabilizing properties, making it an important ingredient in various industries. </p>
                     <a href="/product-three" className='btn dark-btn size'>Explore More <FontAwesomeIcon className='right-arrow' icon={faArrowRight} /></a>
                   </SwiperSlide>
                   <SwiperSlide  ><h3>Sweet Potato</h3>
-                    <p>Rattan furniture is known for its lightweight, yet sturdy structure, making it ideal for bedroom use. It brings a natural, rustic charm to interiors, commonly used in headboards, bed frames, and other furniture. Rattan is durable and eco-friendly, often preferred for outdoor and indoor use alike.</p>
+                    <p>Sweet potatoes (Ipomoea batatas) are a starchy, sweet-tasting root vegetable cherished for their flavor, nutritional value, and versatility. They belong to the Convolvulaceae family and trace their origins to Central and South America. Over time, they have become a globally cultivated crop, thriving in various climates and playing a significant role in diets worldwide. </p>
                     <a href="product-four" className='btn dark-btn size'>Explore More <FontAwesomeIcon className='right-arrow' icon={faArrowRight} /></a>
                   </SwiperSlide>
       </Swiper>
