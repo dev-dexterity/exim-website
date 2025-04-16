@@ -1,49 +1,49 @@
 .hero {
-    width: 100%;
-    min-height: 100vh;
-    background: linear-gradient(rgba(8, 0, 58,0.7), rgba(8, 0, 58,0.7)),  url('../../assets/background.jpg');
-    background-size: cover;
-    background-position: center;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;    
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(rgba(8, 0, 58, 0.7), rgba(8, 0, 58, 0.7)),
+    url("../../assets/favicon.ico");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero-txt {
-    max-width: 800px;
-    text-align: center;
+  max-width: 800px;
+  text-align: center;
 }
 
-.hero-txt h1{
-    font-size: 60px;
-    font-weight: 600;
+.hero-txt h1 {
+  font-size: 60px;
+  font-weight: 600;
 }
 
-.hero-txt p{
-    max-width: 700px;
-    margin: 10px auto 20px;
-    line-height: 1.4;
+.hero-txt p {
+  max-width: 700px;
+  margin: 10px auto 20px;
+  line-height: 1.4;
 }
-
 
 @media (max-width: 850px) {
-    .hero-txt h1{
-        font-size: 40px;
-    }
-    /* .hero-txt p {
+  .hero-txt h1 {
+    font-size: 40px;
+  }
+  /* .hero-txt p {
         font-size: 15px;
     } */
 }
 
 @media (max-width: 650px) {
-    .hero-txt h1{
-        font-size: 30px;
-        max-width: 400;
-        margin: auto;
-    }
-    .hero-txt p {
-        font-size: 15px;
-        margin: 15px auto 30px;   
-    }
+  .hero-txt h1 {
+    font-size: 30px;
+    max-width: 400;
+    margin: auto;
+  }
+  .hero-txt p {
+    font-size: 15px;
+    margin: 15px auto 30px;
+  }
 }

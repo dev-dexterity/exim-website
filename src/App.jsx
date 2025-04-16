@@ -12,6 +12,8 @@ import ProductOne from './components/P1/productOne';
 import ProductTwo from './components/P2/productTwo';
 import ProductThree from './components/P3/productThree';
 import ProductFour from './components/P4/productFour';
+import ProductFive from './components/P5/productFive';
+import ProductSix from './components/P6/productSix';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -45,6 +47,8 @@ const App = () => {
           <Route path="/product-two" element={<ProductTwo />}/>
           <Route path="/product-three" element={<ProductThree />}/>
           <Route path="/product-four" element={<ProductFour />}/>
+          <Route path="/product-five" element={<ProductFive />}/>
+          <Route path="/product-six" element={<ProductSix />}/>
         </Routes>
       </div>
       <Footer />
