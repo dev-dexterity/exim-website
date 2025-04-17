@@ -53,7 +53,7 @@ const productSix = () => {
           <br />
         </p>
 
-        <h5> &rarr; What is the Description of Haldi Powder in Cooking? </h5>
+        <h5> &rarr; What is the Description of Jaggery Powder in Cooking? </h5>
         <div className='image'> <img src={img2} alt="" /></div>
 
         <p>Jaggery Powder is a versatile ingredient that enhances the flavor of

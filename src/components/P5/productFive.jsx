@@ -60,7 +60,7 @@ const productFive = () => {
           benefits of the final product. The process and handling of milk with
           care is essential for producing high-quality ghee.</p>
 
-        <h5> &rarr; What is the Description of Haldi Powder in Cooking? </h5>
+        <h5> &rarr; What is the Description of Ghee in Cooking? </h5>
         <div className='image'> <img src={img2} alt="" /></div>
 
         <p>Ghee plays a vital role in cooking, especially in Indian and South Asian
